@@ -1,0 +1,22 @@
+---
+title: "sesion 1"
+author: "dt"
+date: '2022-03-09'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+escribir formular en latex
+https://latex.codecogs.com/eqneditor/editor.php
+
+```{r control+alt+i}
+set.seed(123)
+z = (rnorm(120,3,0.3));z
+```
+```{r}
+hist(z)
+boxplot(z)
+```
+
